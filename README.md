@@ -100,23 +100,6 @@ Date Added Range: Filters based on the year the content was added to the platfor
 
 Primary Country: Filters titles whose production country matches any of the selected options. Example Use Case: Compare content characteristics exclusively from the United States and India.
 
-Project Structure
-
-Netflix-Analytics-Hub/
-├── app.py                  # Main Streamlit application entry point.
-├── Ntitles.csv             # Primary data file.
-├── requirements.txt        # List of Python dependencies.
-├── .gitignore              # Files ignored by Git.
-├── utils/                  # Utility functions for data handling.
-│   ├── io.py               # Data loading and Streamlit caching.
-│   ├── prep.py             # Data cleaning, feature engineering, and filtering.
-│   └── viz.py              # Plotly chart generation functions.
-└── sections/               # Modularized content for each dashboard page.
-    ├── intro.py            # Introduction page logic.
-    ├── overview.py         # Macro Overview page logic.
-    ├── deep_dives.py       # Deep Dive Analysis page logic.
-    └── conclusions.py      # Conclusions page logic.
-
 
 Contributor Information
 
